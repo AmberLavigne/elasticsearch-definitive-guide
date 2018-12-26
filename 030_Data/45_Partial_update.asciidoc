@@ -191,7 +191,7 @@ POST /website/pageviews/1/_update
 [[_Updates_and_Conflicts]]
 ==== 更新和冲突
 
-在本节的介绍中，我们说明((("updating documents", "conflicts and")))((("conflicts", "updates and"))) _检索_ 和 _重建索引_ 步骤的间隔越小，变更冲突的机会越小。
+在本节的介绍中，我们说明((("updating documents", "conflicts and")))((("conflicts", "updates and"))) _检索_ 和 _重建索引_ 步骤的间隔越大，变更冲突的机会越小。
 但是它并不能完全消除冲突的可能性。 还是有可能在 `update` 设法重新索引之前，来自另一进程的请求修改了文档。
 
 
